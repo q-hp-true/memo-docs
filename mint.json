@@ -1,9 +1,5 @@
 {
-  "name": "MEMO-DOC",
-  "logo": {
-    "light": "ui/public/favicon-32.png",
-    "dark": "ui/public/favicon-32.png"
-  },
+  "name": "memo-docs",
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#16A34A",
@@ -13,7 +9,29 @@
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["README.md"]
+      "pages": [
+        "README"
+      ]
+    },
+    {
+      "group": "中文文档 (Docs-CN)",
+      "pages": [
+        "docs-cn/introduction",
+        "docs-cn/quickstart",
+        "docs-cn/installation",
+        "docs-cn/configuration/database",
+        "docs-cn/configuration/server",
+        "docs-cn/api-reference/auth",
+        "docs-cn/api-reference/users"
+      ]
+    },
+    {
+      "group": "English Docs",
+      "pages": [
+        "docs/introduction",
+        "docs/setup",
+        "docs/architecture"
+      ]
     }
   ]
 }
