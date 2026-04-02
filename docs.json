@@ -15,7 +15,7 @@
         "groups": [
           {
             "group": "Getting Started",
-            "pages": ["docs/README"]
+            "pages": ["index"]
           },
           {
             "group": "Core Concepts",
