@@ -50,7 +50,8 @@
             "pages": [
               "docs/cli-usage/provider/provider-commandline-mannual",
               "docs/cli-usage/user/user-commandline-mannual",
-              "docs/cli-usage/keeper/keeper-commandline-mannual"
+              "docs/cli-usage/keeper/keeper-commandline-mannual",
+              "docs/cli-usage/README"
             ]
           },
           {
