@@ -1,0 +1,19 @@
+{
+  "name": "我的openclaw",
+  "logo": {
+    "light": "ui/public/favicon-32.png",
+    "dark": "ui/public/favicon-32.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#4ADE80",
+    "dark": "#166534"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["introduction"]
+    }
+  ]
+}
