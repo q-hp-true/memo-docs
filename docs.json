@@ -1,4 +1,5 @@
 {
+  "$schema": "https://mintlify.com/docs.json",
   "name": "MEMO-DOC",
   "favicon": "/favicon.png",
   "colors": {
@@ -6,89 +7,94 @@
     "light": "#4ADE80",
     "dark": "#166534"
   },
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": [
-        "docs/README"
-      ]
-    },
-    {
-      "group": "Core Concepts",
-      "pages": [
-        "docs/concepts/introduction",
-        "docs/concepts/roles-introduction",
-        "docs/concepts/memo-token-economics",
-        "docs/concepts/characteristics-advantages",
-        "docs/concepts/requirements",
-        "docs/concepts/payment-of-memo",
-        "docs/concepts/how-to-pledge-memo",
-        "docs/concepts/how-to-check-balance",
-        "docs/concepts/how-to-regenerate-node"
-      ]
-    },
-    {
-      "group": "Installation & Usage",
-      "pages": [
-        "docs/start-and-usage/how-to-use-user",
-        "docs/start-and-usage/http-operation",
-        "docs/start-and-usage/gateway-mode",
-        "docs/start-and-usage/install-Docker/docker-wsl-install",
-        "docs/start-and-usage/how-to-start-with-Docker/megrez/start-provider-in-Docker-Megrez",
-        "docs/start-and-usage/how-to-start-with-Docker/megrez/start-user-in-Docker-Megrez",
-        "docs/start-and-usage/how-to-start-with-Docker/testnet/start-provider-in-Docker-Testnet",
-        "docs/start-and-usage/how-to-start-with-Docker/testnet/start-user-in-Docker-Testnet",
-        "docs/start-and-usage/how-to-start-with-Windows/start-user-in-Windows"
-      ]
-    },
-    {
-      "group": "CLI Manual",
-      "pages": [
-        "docs/cli-usage/provider/provider-commandline-mannual",
-        "docs/cli-usage/user/user-commandline-mannual",
-        "docs/cli-usage/keeper/keeper-commandline-mannual"
-      ]
-    },
-    {
-      "group": "API Reference",
-      "pages": [
-        "docs/api-docs/s3/memo-s3-api-en",
-        "docs/api-docs/middleware/v1.0/MiddleWare HTTP-API Doc",
-        "docs/api-docs/middleware/v0.1-http-gateway/http-gateway interface_en"
-      ]
-    },
-    {
-      "group": "FAQ",
-      "pages": [
-        "docs/FAQ/startup",
-        "docs/FAQ/connection",
-        "docs/FAQ/provider",
-        "docs/FAQ/user",
-        "docs/FAQ/check-log-file",
-        "docs/FAQ/common",
-        "docs/FAQ/others"
-      ]
-    },
-    {
-      "group": "中文文档",
-      "pages": [
-        "docs-cn/api-docs/middleware/v1.0/中间件HTTPAPI说明文档",
-        "docs-cn/api-docs/middleware/v0.1-http-gateway/http-gateway接口_cn",
-        "docs-cn/api-docs/memo-s3-api-cn",
-        "docs-cn/version-update-description/version2.xx-update-description-cn",
-        "docs-cn/cli-usage/provider/provider命令手册",
-        "docs-cn/cli-usage/user/user命令手册",
-        "docs-cn/cli-usage/keeper/keeper命令手册"
-      ]
-    },
-    {
-      "group": "Other Resources",
-      "pages": [
-        "docs/resources/Contract-addresses",
-        "docs/resources/resources-links",
-        "docs/version-update-description/upgrade-to-megrez2.5",
-        "docs/campaigns/volunteer-recruitment-plan"
-      ]
-    }
-  ]
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": ["docs/README"]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "docs/concepts/introduction",
+              "docs/concepts/roles-introduction",
+              "docs/concepts/memo-token-economics",
+              "docs/concepts/characteristics-advantages",
+              "docs/concepts/requirements",
+              "docs/concepts/payment-of-memo",
+              "docs/concepts/how-to-pledge-memo",
+              "docs/concepts/how-to-check-balance",
+              "docs/concepts/how-to-regenerate-node"
+            ]
+          },
+          {
+            "group": "Installation & Usage",
+            "pages": [
+              "docs/start-and-usage/how-to-use-user",
+              "docs/start-and-usage/http-operation",
+              "docs/start-and-usage/gateway-mode",
+              "docs/start-and-usage/install-Docker/docker-wsl-install",
+              "docs/start-and-usage/how-to-start-with-Docker/megrez/start-provider-in-Docker-Megrez",
+              "docs/start-and-usage/how-to-start-with-Docker/megrez/start-user-in-Docker-Megrez",
+              "docs/start-and-usage/how-to-start-with-Docker/testnet/start-provider-in-Docker-Testnet",
+              "docs/start-and-usage/how-to-start-with-Docker/testnet/start-user-in-Docker-Testnet",
+              "docs/start-and-usage/how-to-start-with-Windows/start-user-in-Windows"
+            ]
+          },
+          {
+            "group": "CLI Manual",
+            "pages": [
+              "docs/cli-usage/provider/provider-commandline-mannual",
+              "docs/cli-usage/user/user-commandline-mannual",
+              "docs/cli-usage/keeper/keeper-commandline-mannual"
+            ]
+          },
+          {
+            "group": "API Reference",
+            "pages": [
+              "docs/api-docs/s3/memo-s3-api-en",
+              "docs/api-docs/middleware/v1.0/MiddleWare HTTP-API Doc",
+              "docs/api-docs/middleware/v0.1-http-gateway/http-gateway interface_en"
+            ]
+          },
+          {
+            "group": "FAQ",
+            "pages": [
+              "docs/FAQ/startup",
+              "docs/FAQ/connection",
+              "docs/FAQ/provider",
+              "docs/FAQ/user",
+              "docs/FAQ/check-log-file",
+              "docs/FAQ/common",
+              "docs/FAQ/others"
+            ]
+          },
+          {
+            "group": "中文文档",
+            "pages": [
+              "docs-cn/api-docs/middleware/v1.0/中间件HTTPAPI说明文档",
+              "docs-cn/api-docs/middleware/v0.1-http-gateway/http-gateway接口_cn",
+              "docs-cn/api-docs/memo-s3-api-cn",
+              "docs-cn/version-update-description/version2.xx-update-description-cn",
+              "docs-cn/cli-usage/provider/provider命令手册",
+              "docs-cn/cli-usage/user/user命令手册",
+              "docs-cn/cli-usage/keeper/keeper命令手册"
+            ]
+          },
+          {
+            "group": "Other Resources",
+            "pages": [
+              "docs/resources/Contract-addresses",
+              "docs/resources/resources-links",
+              "docs/version-update-description/upgrade-to-megrez2.5",
+              "docs/campaigns/volunteer-recruitment-plan"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
