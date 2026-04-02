@@ -1,5 +1,5 @@
 {
-  "name": "我的openclaw",
+  "name": "MEMO-DOC",
   "logo": {
     "light": "ui/public/favicon-32.png",
     "dark": "ui/public/favicon-32.png"
@@ -13,7 +13,7 @@
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["README"]
+      "pages": ["README.md"]
     }
   ]
 }
