@@ -13,7 +13,7 @@
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["introduction"]
+      "pages": ["README"]
     }
   ]
 }
