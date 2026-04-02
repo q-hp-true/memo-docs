@@ -46,15 +46,6 @@
             ]
           },
           {
-            "group": "CLI Manual",
-            "pages": [
-              "docs/cli-usage/provider/provider-commandline-mannual",
-              "docs/cli-usage/user/user-commandline-mannual",
-              "docs/cli-usage/keeper/keeper-commandline-mannual",
-              "docs/cli-usage/README"
-            ]
-          },
-          {
             "group": "API Reference",
             "pages": [
               "docs/api-docs/s3/memo-s3-api-en",
